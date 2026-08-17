@@ -20,10 +20,10 @@ module.exports.signup = async (req, res, next) => {
     });
     const token = createSecretToken(user._id);
     res.cookie("token", token, {
-      httpOnly: false,
-      // secure: true,
-      // sameSite: "none",
-      // path: "/",
+      httpOnly: true,
+      secure: true,
+      sameSite: "none",
+      path: "/",
     });
     return res.status(201).json({
       success: true,
@@ -60,10 +60,10 @@ module.exports.login = async (req, res, next) => {
     const token = createSecretToken(user._id);
 
     res.cookie("token", token, {
-      httpOnly: false,
-      // secure: true,
-      // sameSite: "none",
-      // path: "/",
+      httpOnly: true,
+      secure: true,
+      sameSite: "none",
+      path: "/",
     });
     return res
       .status(200)
@@ -76,11 +76,11 @@ module.exports.login = async (req, res, next) => {
 module.exports.logout = async (req, res, next) => {
   try {
     res.clearCookie("token", {
-      httpOnly: false,
-      // secure: true,
-      // sameSite: "none",
-      // path: "/",
-      // expires: new Date(0),
+      httpOnly: true,
+      secure: true,
+      sameSite: "none",
+      path: "/",
+      expires: new Date(0),
     });
 
     return res.status(200).json({
