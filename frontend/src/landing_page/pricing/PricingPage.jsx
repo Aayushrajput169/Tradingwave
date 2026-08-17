@@ -1,0 +1,13 @@
+import Hero from "./Hero";
+import Brockrage from "./Brockrage";
+
+function PricingPage() {
+  return (
+    <>
+      <Hero />
+      <Brockrage />
+    </>
+  );
+}
+
+export default PricingPage;

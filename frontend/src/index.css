@@ -1,0 +1,161 @@
+/* navbar */
+.nav-link {
+  margin-left: 25px;
+}
+
+
+.footer-link a {
+  display: block;
+  margin-top: 14px;
+  text-decoration: none;
+  color: gray;
+}
+.hover-color a:hover {
+  color: rgb(12, 111, 211) !important;
+  font-weight: 500;
+}
+.footer-bottom-link a {
+  text-decoration: none;
+  color: gray;
+}
+
+.universe-logo {
+  height: 100px;
+  width: 200px;
+  object-fit: contain;
+}
+
+@media (max-width: 574px) {
+  .support-button {
+    display: flex;
+    margin: 4.7%;
+  }
+}
+
+.ticket-logo i {
+  color: rgb(7, 130, 207);
+}
+
+.ticket-links li a {
+  text-decoration: none;
+  line-height: 2.7rem;
+  font-size: large;
+}
+.ticket-links li {
+  color: rgb(7, 130, 207);
+}
+
+.ticket-links li a:hover {
+  color: black;
+  color: rgb(54, 54, 54);
+}
+
+.ticket-links li:hover {
+  color: black;
+}
+
+
+/* Signup   */
+.all-btns {
+  background-color: rgb(2, 129, 207) !important;
+}
+.auth-btn {
+  color: white;
+  font-weight: 500;
+}
+.password-toggle {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+/* navbar */
+.menu:hover {
+  color: rgb(7, 130, 207) !important;
+}
+.menu.selected {
+  color: rgb(7, 130, 207) !important;
+  font-weight: 500 !important;
+}
+
+
+/* tick  */
+.tick-navbar li {
+  padding: 6px !important;
+  margin: 0 !important;
+}
+.tick-navbar li a {
+  color: rgb(93, 92, 92);
+  /* font-size: normal; */
+}
+.tick-navbar li a i {
+  font-size: medium;
+  padding-right: 7px !important;
+  color: rgb(118, 116, 116);
+}
+
+.tick-navbar li hr {
+  margin: 0 8px !important;
+}
+.tick-navbar-profile a{
+  color: rgb(97, 96, 96) !important;
+  font-weight: 500 !important;
+}
+.tick-navbar-profile{
+  color: rgb(97, 96, 96) !important;
+  font-weight: 500 !important;
+}
+
+.tick-navbar-profile:hover{
+  color: rgb(2, 129, 207) !important;
+  font-weight: 500 !important;
+}
+.tick-navbar-profile a:hover{
+  color: rgb(2, 129, 207) !important;
+  font-weight: 500 !important;
+}
+
+@media (max-width: 574px) {
+  .tick-card-image img{
+    display: none !important;
+  }
+}
+
+.tick-navbar-btn:active {
+ background-color: white;
+}
+
+.dropdown-username a {
+  padding: 5px 0 !important;
+}
+
+.avatar {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  position: relative;
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: rgb(6, 115, 184);
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  text-align: center;
+  display: flex;
+  background: rgb(212, 232, 247);
+  margin-right: 8px;
+}
+
+.dropdown-item{
+transition: background-color 0.2s ease, transform 0.15s ease !important;
+}
+.dropdown-item:hover {
+  background: #f5f5f5;
+  transform: translateX(2px);
+  color: rgb(250, 118, 78);
+}
