@@ -1,7 +1,7 @@
 import { Routes, Route } from "react-router-dom";
-import Home from "./Components/Home";
+import Home from "./components/Home";
 import ProtectedRoute from "./ProtectedRoute";
-import { GeneralContextProvider } from "./Components/GeneralContext";
+import { GeneralContextProvider } from "./components/GeneralContext";
 
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";

@@ -1,6 +1,6 @@
 import { Navigate } from "react-router-dom";
 import { useEffect, useState, useContext } from "react";
-import GeneralContext from "./Components/GeneralContext";
+import GeneralContext from "./components/GeneralContext";
 import api from "./api/api";
 import { toast } from "react-toastify";
 
