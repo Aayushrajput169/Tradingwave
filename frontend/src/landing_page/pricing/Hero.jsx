@@ -32,7 +32,7 @@ function Hero() {
           </p>
         </div>
         <div className="col-lg-4 col-md-12 text-center gx-4 ">
-          <img src="Media/pricing-eq-1.svg" style={{ width: "16rem" }} alt="" />
+          <img src="media/pricing-eq-1.svg" style={{ width: "16rem" }} alt="" />
           <h1 className="fs-2 mt-4">Free direct MF</h1>
           <p
             className="mt-4 text-muted "
