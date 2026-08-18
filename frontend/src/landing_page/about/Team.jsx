@@ -40,15 +40,6 @@ function Team() {
               Homepage{" "}
             </Link>
             /
-            <a href="" className="text-decoration-none">
-              {" "}
-              TradingQnA{" "}
-            </a>
-            /
-            <a href="" className="text-decoration-none">
-              {" "}
-              Twitter{" "}
-            </a>
           </p>
         </div>
       </div>
